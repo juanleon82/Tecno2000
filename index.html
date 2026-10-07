@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecno 2000</title>
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css" >
+  <!-- Goole Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header>
+  <div class="contenedor barra-nav">
+    <div class="logo"><span>Tecno</span> 2000</div>
+
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> Carrito</a></li>
+      </ul>
+    </nav>
+    
+  </div>
+</header>
+
+<!-- ==================== MAIN ==================== -->
+<main>
+
+  <!-- Banner de bienvenida -->
+  <section class="hero">
+    <h1>Tecnología para todos</h1>
+    <p>Encontrá notebooks, PCs, monitores y accesorios informáticos</p>
+    <a href="#productos" class="boton">Ver productos</a>
+  </section>
+
+  <!-- Seccion con las 6 cards de productos -->
+  <section id="productos" class="contenedor">
+    <h2 class="titulo-seccion">Nuestros productos</h2>
+
+    <div class="grilla-productos">
+
+      <!-- Card 1 -->
+      <article class="card">
+        <img src="imagenes/notebook.jpg" alt="Notebook Lenovo">
+        <div class="card-info">
+          <span class="categoria">Notebooks</span>
+          <h3>Notebook Lenovo IdeaPad</h3>
+          <p>Notebook ideal para estudiar, trabajar y navegar por internet.</p>
+          <span class="precio">$850.000</span>
+          <button><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card">
+        <img src="imagenes/monitor.jpg" alt="Monitor">
+        <div class="card-info">
+          <span class="categoria">Monitores</span>
+          <h3>Monitor Samsung 24"</h3>
+          <p>Monitor ideal para trabajar, estudiar y disfrutar contenido multimedia.</p>
+          <span class="precio">$320.000</span>
+          <button><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <img src="imagenes/printer.jpg" alt="Impresora">
+        <div class="card-info">
+          <span class="categoria">Impresora</span>
+          <h3>Impresora HP LaserJet M608dw</h3>
+          <p>Imprime todos tus apuntes</p>
+          <span class="precio">$555.000</span>
+          <button><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="card">
+        <img src="imagenes/teclado_mecanico.jpg" alt="teclado_mecanico">
+        <div class="card-info">
+          <span class="categoria">Teclados</span>
+          <h3>Teclado Mecanico Logitech</h3>
+          <p>Comodidad en el tipeo</p>
+          <span class="precio">$120000</span>
+          <button><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="card">
+        <img src="imagenes/mouse-inalambrico.jpg" alt="mouse-inalambrico">
+        <div class="card-info">
+          <span class="categoria">Mouses</span>
+          <h3>Mouse Logitech inalámbrico</h3>
+          <p>La comodidad ante todo</p>
+          <span class="precio">$50.000</span>
+          <button><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+        </div>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="card">
+        <img src="imagenes/auricular.jpg" alt="auricular">
+        <div class="card-info">
+          <span class="categoria">Auriculares</span>
+          <h3>Auriculares Gamer HyperX</h3>
+          <p>Alta calidad en sonido</p>
+          <span class="precio">$255.300</span>
+          <button><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Seccion de contacto: datos a la izquierda, mapa a la derecha -->
+  <section id="contacto" class="contenedor">
+    <h2 class="titulo-seccion">Dónde nos encontramos</h2>
+
+    <div class="bloque-contacto">
+
+      <!-- Columna de datos -->
+      <div class="datos-contacto">
+        <h3>Tecno 2000</h3>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> Avellaneda 443 - Bernal</li>
+          <li><i class="fa-solid fa-clock"></i> Lunes a sábados de 10 a 20 hs</li>
+        </ul>
+
+        <h3>Teléfonos</h3>
+        <ul>
+          <li><i class="fa-solid fa-phone"></i> Ventas: <a href="tel:+541145550001">+54 11 4555-0001</a></li>
+          <li><i class="fa-solid fa-headset"></i> Posventa: <a href="tel:+541145550002">+54 11 4555-0002</a></li>
+          <li><i class="fa-brands fa-whatsapp"></i> WhatsApp: <a href="tel:+5491145550003">+54 9 11 4555-0003</a></li>
+          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@tecno2000.com.ar">info@tecno2000.com.ar</a></li>
+        </ul>
+        <p class="nota">* Datos de contacto ficticios, solo de ejemplo.</p>
+      </div>
+
+      <!-- Columna del mapa: iframe de Google Maps  -->
+      <div class="mapa">
+        <iframe
+          src="https://www.google.com/maps?q=Avellaneda%20443%2C%20Bernal&z=16&output=embed"
+          title="Mapa de Avellaneda 443, Bernal"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+  <div class="contenedor footer-columnas">
+
+    <!-- Columna 1: sobre la tienda -->
+    <div class="columna">
+      <h4>Tecno2000</h4>
+      <p>Tienda de productos informáticos creada como ejemplo para el curso de Desarrollo Web</p>
+    </div>
+
+    <!-- Columna 2: contacto -->
+    <div class="columna">
+      <h4>Contacto</h4>
+      <ul>
+        <li><i class="fa-solid fa-envelope"></i> info@tecno2000.com.ar</li>
+        <li><i class="fa-solid fa-phone"></i> +54 11 4555-0001</li>
+        <li><i class="fa-brands fa-whatsapp"></i> +54 9 11 4555-0003</li>
+        <li><i class="fa-solid fa-location-dot"></i> Avellaneda 443 -Bernal - Argentina</li>
+      </ul>
+    </div>
+
+    <!-- Columna 3: redes sociales con iconos de Font Awesome -->
+    <div class="columna">
+      <h4>Seguinos</h4>
+      <p>@tecno2000</p>
+      <div class="redes">
+        <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="copyright">&copy; 2026 Tecno2000</p>
+</footer>
+
+</body>
+</html>
